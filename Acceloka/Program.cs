@@ -1,6 +1,7 @@
+using System.Reflection;
 using Acceloka.Entities;
-using Acceloka.Mapping;
-using Acceloka.Services;
+using FluentValidation;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
@@ -23,12 +24,19 @@ builder.Services.AddDbContextPool<AccelokaContext>(options =>
     options.UseSqlServer(conString);
 });
 
-//services
-builder.Services.AddTransient<TicketService>();
-builder.Services.AddTransient<BookService>();
-builder.Services.AddTransient<BookedTicketService>();
+
+//Behaviors
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+
+// Register MediatR
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+
+// Register FluentValidation
+builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+
+
 //Mapper
-builder.Services.AddAutoMapper([typeof(TicketProfile), typeof(BookedTicketProfile)]);
+builder.Services.AddAutoMapper([typeof(TicketProfile)]);
 
 
 // Konfigurasi Serilog Sink File
@@ -36,8 +44,8 @@ Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Information()
     .WriteTo.File(
         path: "logs/Log-.txt",
-        rollingInterval: RollingInterval.Day,  // File per hari
-        retainedFileCountLimit: 7, // Hapus log lebih dari 7 hari
+        rollingInterval: RollingInterval.Day,  
+        retainedFileCountLimit: 7,
         outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss} [{Level}] {Message}{NewLine}{Exception}"
     )
     .CreateLogger();
