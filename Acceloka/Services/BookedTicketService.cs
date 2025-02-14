@@ -179,7 +179,7 @@ namespace Acceloka.Services
                         throw new ArgumentException($"Quantity yang diminta ({updatedTicket.Quantity}) melebihi total quota tiket yang tersedia ({ticket.Quota + bookedTicket.Quantity}).");
                     }
 
-                    // ✅ Update jumlah tiket yang sudah dipesan
+                    // Update jumlah tiket yang sudah dipesan
                     int delta = updatedTicket.Quantity - bookedTicket.Quantity;
                     ticket.Quota -= delta;
                     bookedTicket.Quantity = updatedTicket.Quantity;
@@ -190,7 +190,7 @@ namespace Acceloka.Services
 
                 Log.Information("Update ticket berhasil untuk BookId {BookId}", bookId);
 
-                // ✅ Mapping secara manual (tanpa AutoMapper)
+                // Mapping 
                 var groupedRemainingTickets = bookedTickets
                     .GroupBy(bt => bt.TicketCodeNavigation.Category)
                     .Select(g => new BookedTicketUpdateDeleteGroupedDto
