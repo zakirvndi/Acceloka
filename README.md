@@ -1,1 +1,1 @@
-"# Acceloka" 
+"Acceloka - Training Exam Project" 
