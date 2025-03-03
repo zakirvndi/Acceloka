@@ -14,17 +14,26 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateBookingCommand"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/BookTicketDto"
+                }
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateBookingCommand"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/BookTicketDto"
+                }
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateBookingCommand"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/BookTicketDto"
+                }
               }
             }
           }
@@ -119,17 +128,26 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateBookedTicketCommand"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/BookedTicketUpdateRequestDto"
+                }
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateBookedTicketCommand"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/BookedTicketUpdateRequestDto"
+                }
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateBookedTicketCommand"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/BookedTicketUpdateRequestDto"
+                }
               }
             }
           }
@@ -148,21 +166,44 @@
         ],
         "parameters": [
           {
-            "name": "category",
+            "name": "EventDate",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "Quota",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Category",
             "in": "query",
             "schema": {
               "type": "string"
             }
           },
           {
-            "name": "ticketCode",
+            "name": "TicketCode",
             "in": "query",
             "schema": {
               "type": "string"
             }
           },
           {
-            "name": "ticketPrice",
+            "name": "TicketName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "TicketPrice",
             "in": "query",
             "schema": {
               "type": "number",
@@ -170,7 +211,7 @@
             }
           },
           {
-            "name": "minEventDate",
+            "name": "MinEventDate",
             "in": "query",
             "schema": {
               "type": "string",
@@ -178,7 +219,7 @@
             }
           },
           {
-            "name": "maxEventDate",
+            "name": "MaxEventDate",
             "in": "query",
             "schema": {
               "type": "string",
@@ -186,14 +227,14 @@
             }
           },
           {
-            "name": "orderBy",
+            "name": "OrderBy",
             "in": "query",
             "schema": {
               "type": "string"
             }
           },
           {
-            "name": "orderState",
+            "name": "OrderState",
             "in": "query",
             "schema": {
               "type": "string"
@@ -227,26 +268,9 @@
         },
         "additionalProperties": false
       },
-      "CreateBookingCommand": {
+      "BookedTicketUpdateRequestDto": {
         "type": "object",
         "properties": {
-          "tickets": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/BookTicketDto"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateBookedTicketCommand": {
-        "type": "object",
-        "properties": {
-          "bookId": {
-            "type": "integer",
-            "format": "int32"
-          },
           "ticketCode": {
             "type": "string",
             "nullable": true

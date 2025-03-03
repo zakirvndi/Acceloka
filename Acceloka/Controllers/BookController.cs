@@ -1,6 +1,7 @@
-﻿using Acceloka.Application.Commands.Bookings;
-using MediatR;
+﻿using Acceloka.Models.DTOS;
+using Acceloka.Services;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -10,18 +11,26 @@ namespace Acceloka.Controllers
     [ApiController]
     public class BookController : ControllerBase
     {
-        private readonly IMediator _mediator;
+        private readonly BookService _bookService;
 
-        public BookController(IMediator mediator)
+        public BookController(BookService bookService)
         {
-            _mediator = mediator;
+            _bookService = bookService;
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateBooking([FromBody] CreateBookingCommand command)
+        public async Task<IActionResult> CreateBooking([FromBody] List<BookTicketDto> bookingRequest)
         {
-            var result = await _mediator.Send(command);
-            return Ok(result);
+            if (bookingRequest == null || bookingRequest.Count == 0)
+            {
+                return BadRequest(new { message = "Booking request tidak boleh kosong." });
+            }
+
+            Log.Information("Request Booking: {@bookingRequest}", bookingRequest);
+
+            
+            var result = await _bookService.CreateBookingAsync(bookingRequest);
+            return Ok(new { message = "Booking berhasil!", data = result });
         }
     }
 }
