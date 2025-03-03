@@ -18,10 +18,10 @@ namespace Acceloka.Controllers
         }
 
         // GET: api/<BookedTicketController>
-        [HttpGet("get-booked-ticket/{bookedTicketId}")]
-        public async Task<IActionResult> GetBookedTicket(int bookedTicketId)
+        [HttpGet("get-booked-ticket/{bookId}")]
+        public async Task<IActionResult> GetBookedTicket(int bookId)
         {
-            var result = await _bookedTicketService.GetBookedTicketByIdAsync(bookedTicketId);
+            var result = await _bookedTicketService.GetBookedTicketByIdAsync(bookId);
             return Ok(result); 
         }
 

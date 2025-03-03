@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "bookingRequest",
-        "Type": "System.Collections.Generic.List\u00601[[Acceloka.Models.DTOS.BookedTicketDto, Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Acceloka.Models.DTOS.BookTicket, Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],
@@ -79,13 +79,13 @@
   {
     "ContainingType": "Acceloka.Controllers.BookedTicketController",
     "Method": "GetBookedTicket",
-    "RelativePath": "api/v1/get-booked-ticket/{bookedTicketId}",
+    "RelativePath": "api/v1/get-booked-ticket/{bookId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "bookedTicketId",
+        "Name": "bookId",
         "Type": "System.Int32",
         "IsRequired": true
       }

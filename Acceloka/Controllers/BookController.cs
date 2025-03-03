@@ -19,7 +19,7 @@ namespace Acceloka.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateBooking([FromBody] List<BookedTicketDto> bookingRequest)
+        public async Task<IActionResult> CreateBooking([FromBody] List<BookTicket> bookingRequest)
         {
             if (bookingRequest == null || bookingRequest.Count == 0)
             {

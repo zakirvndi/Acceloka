@@ -16,7 +16,7 @@
               "schema": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/BookedTicketDto"
+                  "$ref": "#/components/schemas/BookTicket"
                 }
               }
             },
@@ -24,7 +24,7 @@
               "schema": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/BookedTicketDto"
+                  "$ref": "#/components/schemas/BookTicket"
                 }
               }
             },
@@ -32,7 +32,7 @@
               "schema": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/BookedTicketDto"
+                  "$ref": "#/components/schemas/BookTicket"
                 }
               }
             }
@@ -45,14 +45,14 @@
         }
       }
     },
-    "/api/v1/get-booked-ticket/{bookedTicketId}": {
+    "/api/v1/get-booked-ticket/{bookId}": {
       "get": {
         "tags": [
           "BookedTicket"
         ],
         "parameters": [
           {
-            "name": "bookedTicketId",
+            "name": "bookId",
             "in": "path",
             "required": true,
             "schema": {
@@ -251,7 +251,7 @@
   },
   "components": {
     "schemas": {
-      "BookedTicketDto": {
+      "BookTicket": {
         "required": [
           "ticketCode"
         ],

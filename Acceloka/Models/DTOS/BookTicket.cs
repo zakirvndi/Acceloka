@@ -2,7 +2,7 @@
 
 namespace Acceloka.Models.DTOS
 {
-    public class BookedTicketDto
+    public class BookTicket
     {
         [Required(ErrorMessage = "Kode tiket wajib diisi")]
         public string TicketCode { get; set; }

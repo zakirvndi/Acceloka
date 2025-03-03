@@ -21,16 +21,16 @@ namespace Acceloka.Services
 
         //untuk disini sebenarnya menggunakan BookId bukan BookedTicketId untuk parameter GET melihat tiket yang sudah dibooking, karena relasi di databasenya yang saya buat
         //table Book ke BookedTicket 1 to Many, dimana 1 kali booking bisa memiliki banyak tiket (BookedTicket). Sehingga ketika mau melihat Booking tertentu memesan tiket apa saja, bisa dilihat berdasarkan BookIdnya
-        public async Task<BookedTicketGetResponseDto> GetBookedTicketByIdAsync(int bookedTicketId)
+        public async Task<BookedTicketGetResponseDto> GetBookedTicketByIdAsync(int bookId)
         {
             var bookedTickets = await _db.BookedTickets
-                .Where(bt => bt.BookId == bookedTicketId)
+                .Where(bt => bt.BookId == bookId)
                 .Include(bt => bt.TicketCodeNavigation)
                 .ToListAsync();
 
             if (!bookedTickets.Any())
             {
-                throw new KeyNotFoundException($"BookedTicket with ID {bookedTicketId} not found.");
+                throw new KeyNotFoundException($"BookedTicket with ID {bookId} not found.");
             }
 
             // Group by Category

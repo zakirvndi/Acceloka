@@ -103,3 +103,4 @@ C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\A
 C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.sourcelink.json
