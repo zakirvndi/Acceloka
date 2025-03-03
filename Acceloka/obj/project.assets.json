@@ -88,26 +88,6 @@
           }
         }
       },
-<<<<<<< HEAD
-      "FluentValidation.DependencyInjectionExtensions/11.11.0": {
-        "type": "package",
-        "dependencies": {
-          "FluentValidation": "11.11.0",
-          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-=======
->>>>>>> 017008d (Update)
       "MediatR/12.4.1": {
         "type": "package",
         "dependencies": {
@@ -1576,26 +1556,6 @@
         "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
-<<<<<<< HEAD
-    "FluentValidation.DependencyInjectionExtensions/11.11.0": {
-      "sha512": "viTKWaMbL3yJYgGI0DiCeavNbE9UPMWFVK2XS9nYXGbm3NDMd0/L5ER4wBzmTtW3BYh3SrlSXm9RACiKZ6stlA==",
-      "type": "package",
-      "path": "fluentvalidation.dependencyinjectionextensions/11.11.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "fluent-validation-icon.png",
-        "fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
-        "fluentvalidation.dependencyinjectionextensions.nuspec",
-        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
-        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
-        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
-        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
-      ]
-    },
-=======
->>>>>>> 017008d (Update)
     "MediatR/12.4.1": {
       "sha512": "0tLxCgEC5+r1OCuumR3sWyiVa+BMv3AgiU4+pz8xqTc+2q1WbUEXFOr7Orm96oZ9r9FsldgUtWvB2o7b9jDOaw==",
       "type": "package",
@@ -4160,10 +4120,6 @@
       "Acceloka.Entities >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "FluentValidation >= 11.11.0",
-<<<<<<< HEAD
-      "FluentValidation.DependencyInjectionExtensions >= 11.11.0",
-=======
->>>>>>> 017008d (Update)
       "MediatR >= 12.4.1",
       "Newtonsoft.Json >= 13.0.3",
       "Serilog.AspNetCore >= 9.0.0",
@@ -4178,11 +4134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Acceloka\\Acceloka\\Acceloka.csproj",
+      "projectUniqueName": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka\\Acceloka.csproj",
       "projectName": "Acceloka",
-      "projectPath": "E:\\Acceloka\\Acceloka\\Acceloka.csproj",
+      "projectPath": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka\\Acceloka.csproj",
       "packagesPath": "C:\\Users\\ZAKI\\.nuget\\packages\\",
-      "outputPath": "E:\\Acceloka\\Acceloka\\obj\\",
+      "outputPath": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4203,8 +4159,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj": {
-              "projectPath": "E:\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj"
+            "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj": {
+              "projectPath": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj"
             }
           }
         }
@@ -4233,13 +4189,6 @@
             "target": "Package",
             "version": "[11.11.0, )"
           },
-<<<<<<< HEAD
-          "FluentValidation.DependencyInjectionExtensions": {
-            "target": "Package",
-            "version": "[11.11.0, )"
-          },
-=======
->>>>>>> 017008d (Update)
           "MediatR": {
             "target": "Package",
             "version": "[12.4.1, )"

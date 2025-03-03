@@ -12,11 +12,7 @@ namespace Acceloka.Models
         public string Category { get; set; }
 
        
-<<<<<<< HEAD
-        [Range(1, int.MaxValue, ErrorMessage = "Quantity must be at least 1.")]
-=======
         [Range(1, int.MaxValue, ErrorMessage = "Quota must be at least 1.")]
->>>>>>> 017008d (Update)
         public int Quota { get; set; }
 
         

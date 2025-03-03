@@ -30,11 +30,7 @@ namespace Acceloka.Services
 
             if (!bookedTickets.Any())
             {
-<<<<<<< HEAD
-                throw new KeyNotFoundException($"BookedTicket with ID {bookId} not found.");
-=======
                 throw new KeyNotFoundException($"BookId with ID {bookId} not found.");
->>>>>>> 017008d (Update)
             }
 
             // Group by Category
@@ -183,7 +179,7 @@ namespace Acceloka.Services
                         throw new ArgumentException($"Quantity yang diminta ({updatedTicket.Quantity}) melebihi total quota tiket yang tersedia ({ticket.Quota + bookedTicket.Quantity}).");
                     }
 
-                    // Update jumlah tiket yang sudah dipesan
+                    //  Update jumlah tiket yang sudah dipesan
                     int delta = updatedTicket.Quantity - bookedTicket.Quantity;
                     ticket.Quota -= delta;
                     bookedTicket.Quantity = updatedTicket.Quantity;
@@ -194,7 +190,7 @@ namespace Acceloka.Services
 
                 Log.Information("Update ticket berhasil untuk BookId {BookId}", bookId);
 
-                // Mapping 
+                //  Mapping secara manual (tanpa AutoMapper)
                 var groupedRemainingTickets = bookedTickets
                     .GroupBy(bt => bt.TicketCodeNavigation.Category)
                     .Select(g => new BookedTicketUpdateDeleteGroupedDto
