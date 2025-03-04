@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Acceloka.csproj": {}
+    "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka\\Acceloka.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj": {
+    "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj",
         "projectName": "Acceloka.Entities",
-        "projectPath": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj",
+        "projectPath": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj",
         "packagesPath": "C:\\Users\\ZAKI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka.Entities\\obj\\",
+        "outputPath": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Acceloka.csproj": {
+    "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka\\Acceloka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Acceloka.csproj",
+        "projectUniqueName": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka\\Acceloka.csproj",
         "projectName": "Acceloka",
-        "projectPath": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Acceloka.csproj",
+        "projectPath": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka\\Acceloka.csproj",
         "packagesPath": "C:\\Users\\ZAKI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\obj\\",
+        "outputPath": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj": {
-                "projectPath": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj"
+              "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj": {
+                "projectPath": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj"
               }
             }
           }

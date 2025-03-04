@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0x4kyG/ifK0=",
+  "dgSpecHash": "BT2bGI2/Fug=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Acceloka.csproj",
+  "projectFilePath": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka\\Acceloka.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ZAKI\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ZAKI\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

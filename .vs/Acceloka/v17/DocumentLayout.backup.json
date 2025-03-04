@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|c:\\users\\zaki\\documents\\binus\\accelist\\training\\training exam project\\acceloka\\acceloka\\mapping\\ticketprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|solutionrelative:acceloka\\mapping\\ticketprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|c:\\users\\zaki\\documents\\binus\\accelist\\training\\training exam project\\acceloka\\acceloka\\acceloka.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|solutionrelative:acceloka\\acceloka.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -19,14 +23,6 @@
       "RelativeMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|solutionrelative:acceloka\\models\\ticketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|c:\\users\\zaki\\documents\\binus\\accelist\\training\\training exam project\\acceloka\\acceloka\\application\\queries\\getavailabletickets\\getavailableticketshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|solutionrelative:acceloka\\application\\queries\\getavailabletickets\\getavailableticketshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|c:\\users\\zaki\\documents\\binus\\accelist\\training\\training exam project\\acceloka\\acceloka\\application\\queries\\getavailabletickets\\getavailableticketsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|solutionrelative:acceloka\\application\\queries\\getavailabletickets\\getavailableticketsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|c:\\users\\zaki\\documents\\binus\\accelist\\training\\training exam project\\acceloka\\acceloka\\models\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|solutionrelative:acceloka\\models\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|c:\\users\\zaki\\documents\\binus\\accelist\\training\\training exam project\\acceloka\\acceloka\\mapping\\bookedticketprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|solutionrelative:acceloka\\mapping\\bookedticketprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|c:\\users\\zaki\\documents\\binus\\accelist\\training\\training exam project\\acceloka\\acceloka\\mapping\\ticketprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|solutionrelative:acceloka\\mapping\\ticketprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A24DA66E-59F9-4FBA-A8CC-64DD8ABE5E6F}|Acceloka\\Acceloka.csproj|c:\\users\\zaki\\documents\\binus\\accelist\\training\\training exam project\\acceloka\\acceloka\\models\\dtos\\bookedticketgetresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,34 +70,8 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetAvailableTicketsHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Application\\Queries\\GetAvailableTickets\\GetAvailableTicketsHandler.cs",
-              "RelativeDocumentMoniker": "Acceloka\\Application\\Queries\\GetAvailableTickets\\GetAvailableTicketsHandler.cs",
-              "ToolTip": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Application\\Queries\\GetAvailableTickets\\GetAvailableTicketsHandler.cs",
-              "RelativeToolTip": "Acceloka\\Application\\Queries\\GetAvailableTickets\\GetAvailableTicketsHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T09:07:04.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetAvailableTicketsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Application\\Queries\\GetAvailableTickets\\GetAvailableTicketsQuery.cs",
-              "RelativeDocumentMoniker": "Acceloka\\Application\\Queries\\GetAvailableTickets\\GetAvailableTicketsQuery.cs",
-              "ToolTip": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Application\\Queries\\GetAvailableTickets\\GetAvailableTicketsQuery.cs",
-              "RelativeToolTip": "Acceloka\\Application\\Queries\\GetAvailableTickets\\GetAvailableTicketsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T09:06:40.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Acceloka",
+              "DocumentIndex": 1,
+              "Title": "Acceloka.csproj",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Acceloka.csproj",
               "RelativeDocumentMoniker": "Acceloka\\Acceloka.csproj",
               "ToolTip": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Acceloka.csproj",
@@ -117,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TicketService.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Services\\TicketService.cs",
               "RelativeDocumentMoniker": "Acceloka\\Services\\TicketService.cs",
@@ -125,25 +91,24 @@
               "RelativeToolTip": "Acceloka\\Services\\TicketService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAD0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T07:51:29.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T07:51:29.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "TicketProfile.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Mapping\\TicketProfile.cs",
               "RelativeDocumentMoniker": "Acceloka\\Mapping\\TicketProfile.cs",
               "ToolTip": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Mapping\\TicketProfile.cs",
               "RelativeToolTip": "Acceloka\\Mapping\\TicketProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T08:24:40.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "BookedTicketProfile.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Mapping\\BookedTicketProfile.cs",
               "RelativeDocumentMoniker": "Acceloka\\Mapping\\BookedTicketProfile.cs",
@@ -151,12 +116,11 @@
               "RelativeToolTip": "Acceloka\\Mapping\\BookedTicketProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T07:34:52.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T07:34:52.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BookedTicketService.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Services\\BookedTicketService.cs",
               "RelativeDocumentMoniker": "Acceloka\\Services\\BookedTicketService.cs",
@@ -164,12 +128,11 @@
               "RelativeToolTip": "Acceloka\\Services\\BookedTicketService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T07:31:05.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T07:31:05.754Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TicketModel.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Models\\TicketModel.cs",
               "RelativeDocumentMoniker": "Acceloka\\Models\\TicketModel.cs",
@@ -177,12 +140,11 @@
               "RelativeToolTip": "Acceloka\\Models\\TicketModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T04:32:37.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T04:32:37.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "BookedTicketController.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Controllers\\BookedTicketController.cs",
               "RelativeDocumentMoniker": "Acceloka\\Controllers\\BookedTicketController.cs",
@@ -190,12 +152,11 @@
               "RelativeToolTip": "Acceloka\\Controllers\\BookedTicketController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T07:31:16.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T07:31:16.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "BookTicketGroupedDto.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Models\\DTOS\\BookTicketGroupedDto.cs",
               "RelativeDocumentMoniker": "Acceloka\\Models\\DTOS\\BookTicketGroupedDto.cs",
@@ -203,12 +164,11 @@
               "RelativeToolTip": "Acceloka\\Models\\DTOS\\BookTicketGroupedDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T07:33:24.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T07:33:24.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "TicketDto.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Models\\DTOS\\TicketDto.cs",
               "RelativeDocumentMoniker": "Acceloka\\Models\\DTOS\\TicketDto.cs",
@@ -216,12 +176,11 @@
               "RelativeToolTip": "Acceloka\\Models\\DTOS\\TicketDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T07:22:59.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T07:22:59.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "BookedTicketGetResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Models\\DTOS\\BookedTicketGetResponseDto.cs",
               "RelativeDocumentMoniker": "Acceloka\\Models\\DTOS\\BookedTicketGetResponseDto.cs",
@@ -229,12 +188,11 @@
               "RelativeToolTip": "Acceloka\\Models\\DTOS\\BookedTicketGetResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T07:32:20.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T07:32:20.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "BookedTicketUpdateDeleteDto.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Models\\DTOS\\BookedTicketUpdateDeleteDto.cs",
               "RelativeDocumentMoniker": "Acceloka\\Models\\DTOS\\BookedTicketUpdateDeleteDto.cs",
@@ -242,12 +200,11 @@
               "RelativeToolTip": "Acceloka\\Models\\DTOS\\BookedTicketUpdateDeleteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T07:32:26.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T07:32:26.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "BookTicketDto.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Models\\DTOS\\BookTicketDto.cs",
               "RelativeDocumentMoniker": "Acceloka\\Models\\DTOS\\BookTicketDto.cs",
@@ -255,12 +212,11 @@
               "RelativeToolTip": "Acceloka\\Models\\DTOS\\BookTicketDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T07:33:23.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T07:33:23.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "BookedTicketModel.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Models\\BookedTicketModel.cs",
               "RelativeDocumentMoniker": "Acceloka\\Models\\BookedTicketModel.cs",
@@ -268,12 +224,11 @@
               "RelativeToolTip": "Acceloka\\Models\\BookedTicketModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T07:21:49.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T07:21:49.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "BookModel.cs",
               "DocumentMoniker": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka\\Models\\BookModel.cs",
               "RelativeDocumentMoniker": "Acceloka\\Models\\BookModel.cs",
@@ -281,8 +236,7 @@
               "RelativeToolTip": "Acceloka\\Models\\BookModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T07:21:46.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T07:21:46.307Z"
             }
           ]
         }

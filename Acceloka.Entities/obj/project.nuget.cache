@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8d2otjleO+A=",
+  "dgSpecHash": "23E45LzdQiM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ZAKI\\Documents\\BINUS\\Accelist\\Training\\Training Exam Project\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj",
+  "projectFilePath": "C:\\Users\\ZAKI\\Documents\\GitHub\\Acceloka\\Acceloka.Entities\\Acceloka.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ZAKI\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ZAKI\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
