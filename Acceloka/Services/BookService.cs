@@ -18,7 +18,7 @@ namespace Acceloka.Services
             _db = db;
         }
 
-        public async Task<BookedTicketResponseDto> CreateBookingAsync(List<BookTicket> bookedTicketsDto)
+        public async Task<BookedTicketResponseDto> CreateBookingAsync(List<BookTicketDto> bookedTicketsDto)
         {
             if (bookedTicketsDto == null || !bookedTicketsDto.Any())
             {

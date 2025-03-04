@@ -1,0 +1,20 @@
+2025-03-01 12:28:35 [Information] Now listening on: "http://localhost:5207"
+2025-03-01 12:28:36 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-01 12:28:36 [Information] Hosting environment: "Development"
+2025-03-01 12:28:36 [Information] Content root path: "C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka"
+2025-03-01 12:28:36 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/index.html""" - null null
+2025-03-01 12:28:36 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 199.4169ms
+2025-03-01 12:28:36 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/_vs/browserLink""" - null null
+2025-03-01 12:28:36 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-03-01 12:28:36 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 2.8937ms
+2025-03-01 12:28:36 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 59.5565ms
+2025-03-01 12:28:36 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/v1/swagger.json""" - null null
+2025-03-01 12:28:36 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 11.4142ms
+2025-03-01 14:01:25 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-03-01 14:01:25 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 1.3549ms
+2025-03-01 14:01:26 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/v1/swagger.json""" - null null
+2025-03-01 14:01:26 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 6.1995ms
+2025-03-01 17:48:45 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-03-01 17:48:45 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 1.2885ms
+2025-03-01 17:48:46 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/v1/swagger.json""" - null null
+2025-03-01 17:48:46 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 7.9701ms

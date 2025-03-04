@@ -1,8 +1,7 @@
-﻿using Acceloka.Models.DTOS;
-using Acceloka.Services;
+﻿using Acceloka.Application.Queries.Tickets;
+using Acceloka.Application.Validators.Tickets;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Acceloka.Controllers
 {
@@ -10,18 +9,37 @@ namespace Acceloka.Controllers
     [ApiController]
     public class TicketController : ControllerBase
     {
-        private readonly TicketService _ticketService;
+        private readonly IMediator _mediator;
 
-        public TicketController(TicketService ticketService)
+        public TicketController(IMediator mediator)
         {
-            _ticketService = ticketService;
+            _mediator = mediator;
         }
 
-        [HttpGet()]
-        public async Task<IActionResult> GetAvailableTickets([FromQuery] TicketDto filter)
+        [HttpGet]
+        public async Task<IActionResult> GetAvailableTickets(
+            [FromQuery] string? category,
+            [FromQuery] string? ticketCode,
+            [FromQuery] decimal? ticketPrice,
+            [FromQuery] DateTimeOffset? minEventDate,
+            [FromQuery] DateTimeOffset? maxEventDate,
+            [FromQuery] string? orderBy,
+            [FromQuery] string? orderState)
         {
-            var tickets = await _ticketService.GetAvailableTickets(filter);
-            return Ok(new { success = true, data = tickets });
+            var query = new GetAvailableTicketsQuery
+            {
+                Category = category,
+                TicketCode = ticketCode,
+                TicketPrice = ticketPrice,
+                MinEventDate = minEventDate,
+                MaxEventDate = maxEventDate,
+                OrderBy = orderBy,
+                OrderState = orderState
+            };
+
+            var tickets = await _mediator.Send(query);
+            return Ok(tickets);
         }
+
     }
 }
