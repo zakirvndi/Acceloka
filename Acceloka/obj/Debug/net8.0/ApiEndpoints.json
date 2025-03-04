@@ -8,8 +8,13 @@
     "Order": 0,
     "Parameters": [
       {
+<<<<<<< HEAD
         "Name": "command",
         "Type": "Acceloka.Application.Commands.Bookings.CreateBookingCommand",
+=======
+        "Name": "bookingRequest",
+        "Type": "System.Collections.Generic.List\u00601[[Acceloka.Models.DTOS.BookTicketDto, Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+>>>>>>> 017008d (Update)
         "IsRequired": true
       }
     ],
@@ -63,7 +68,11 @@
   },
   {
     "ContainingType": "Acceloka.Controllers.BookedTicketController",
+<<<<<<< HEAD
     "Method": "GetBookedTicketById",
+=======
+    "Method": "GetBookedTicket",
+>>>>>>> 017008d (Update)
     "RelativePath": "api/v1/get-booked-ticket/{bookId}",
     "HttpMethod": "GET",
     "IsController": true,

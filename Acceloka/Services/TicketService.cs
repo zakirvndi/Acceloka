@@ -61,6 +61,7 @@ namespace Acceloka.Services
             }
             catch (Exception ex)
             {
+                //test
                 Log.Error(ex, "Error in GetAvailableTickets");
                 throw;
             }

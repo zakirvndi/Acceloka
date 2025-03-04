@@ -18,12 +18,21 @@ namespace Acceloka.Controllers
             _mediator = mediator;
         }
 
+<<<<<<< HEAD
         // GET
         [HttpGet("get-booked-ticket/{bookId}")]
         public async Task<IActionResult> GetBookedTicketById([FromRoute] int bookId)
         {
             var result = await _mediator.Send(new GetBookedTicketByIdQuery(bookId));
             return Ok(result);
+=======
+        // GET: api/<BookedTicketController>
+        [HttpGet("get-booked-ticket/{bookId}")]
+        public async Task<IActionResult> GetBookedTicket(int bookId)
+        {
+            var result = await _bookedTicketService.GetBookedTicketByIdAsync(bookId);
+            return Ok(result); 
+>>>>>>> 017008d (Update)
         }
 
         //DELETE

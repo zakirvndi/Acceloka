@@ -18,7 +18,11 @@ namespace Acceloka.Controllers
         }
 
         [HttpPost]
+<<<<<<< HEAD
         public async Task<IActionResult> CreateBooking([FromBody] CreateBookingCommand command)
+=======
+        public async Task<IActionResult> CreateBooking([FromBody] List<BookTicketDto> bookingRequest)
+>>>>>>> 017008d (Update)
         {
             var result = await _mediator.Send(command);
             return Ok(result);

@@ -104,6 +104,7 @@ C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\A
 C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.sourcelink.json
+<<<<<<< HEAD
 C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\MediatR.dll
@@ -218,3 +219,5 @@ E:\Acceloka\Acceloka\obj\Debug\net8.0\refint\Acceloka.dll
 E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.pdb
 E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.genruntimeconfig.cache
 E:\Acceloka\Acceloka\obj\Debug\net8.0\ref\Acceloka.dll
+=======
+>>>>>>> 017008d (Update)

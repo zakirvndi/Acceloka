@@ -30,7 +30,11 @@ namespace Acceloka.Services
 
             if (!bookedTickets.Any())
             {
+<<<<<<< HEAD
                 throw new KeyNotFoundException($"BookedTicket with ID {bookId} not found.");
+=======
+                throw new KeyNotFoundException($"BookId with ID {bookId} not found.");
+>>>>>>> 017008d (Update)
             }
 
             // Group by Category
