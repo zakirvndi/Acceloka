@@ -1,237 +1,3 @@
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\appsettings.json
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.staticwebassets.endpoints.json
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.exe
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.deps.json
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.runtimeconfig.json
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.pdb
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.csproj.AssemblyReference.cache
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.AssemblyInfoInputs.cache
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.AssemblyInfo.cs
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.csproj.CoreCompileInputs.cache
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\scopedcss\bundle\Acceloka.styles.css
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets\msbuild.Acceloka.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets\msbuild.Acceloka.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets\msbuild.build.Acceloka.props
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Acceloka.props
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Acceloka.props
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.csproj.Up2Date
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\refint\Acceloka.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.pdb
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.genruntimeconfig.cache
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\ref\Acceloka.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.Entities.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.Entities.pdb
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.AspNetCore.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Sinks.Console.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Sinks.File.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.IO.Pipelines.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\System.Text.Json.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.sourcelink.json
-<<<<<<< HEAD
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\FluentValidation.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\MediatR.dll
-C:\Users\ZAKI\Documents\BINUS\Accelist\Training\Training Exam Project\Acceloka\Acceloka\bin\Debug\net8.0\MediatR.Contracts.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\appsettings.Development.json
-E:\Acceloka\Acceloka\bin\Debug\net8.0\appsettings.json
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.staticwebassets.endpoints.json
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.exe
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.deps.json
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.runtimeconfig.json
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.pdb
-E:\Acceloka\Acceloka\bin\Debug\net8.0\AutoMapper.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Azure.Core.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Azure.Identity.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\FluentValidation.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\MediatR.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\MediatR.Contracts.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.OpenApi.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Newtonsoft.Json.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.AspNetCore.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Sinks.Console.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Serilog.Sinks.File.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\System.Drawing.Common.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\System.IO.Pipelines.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\System.Memory.Data.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\System.Runtime.Caching.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\System.Security.Permissions.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\System.Text.Json.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\System.Windows.Extensions.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.Entities.dll
-E:\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.Entities.pdb
-E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.csproj.AssemblyReference.cache
-E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.GeneratedMSBuildEditorConfig.editorconfig
-E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.AssemblyInfoInputs.cache
-E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.AssemblyInfo.cs
-E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.csproj.CoreCompileInputs.cache
-E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.MvcApplicationPartsAssemblyInfo.cs
-E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.MvcApplicationPartsAssemblyInfo.cache
-E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.sourcelink.json
-E:\Acceloka\Acceloka\obj\Debug\net8.0\scopedcss\bundle\Acceloka.styles.css
-E:\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.build.json
-E:\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.development.json
-E:\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-E:\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets\msbuild.Acceloka.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets\msbuild.Acceloka.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-E:\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets\msbuild.build.Acceloka.props
-E:\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Acceloka.props
-E:\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Acceloka.props
-E:\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.pack.json
-E:\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.csproj.Up2Date
-E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.dll
-E:\Acceloka\Acceloka\obj\Debug\net8.0\refint\Acceloka.dll
-E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.pdb
-E:\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.genruntimeconfig.cache
-E:\Acceloka\Acceloka\obj\Debug\net8.0\ref\Acceloka.dll
-=======
->>>>>>> 017008d (Update)
-C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.csproj.AssemblyReference.cache
-C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.AssemblyInfoInputs.cache
-C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.AssemblyInfo.cs
-C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.csproj.CoreCompileInputs.cache
-C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.sourcelink.json
-C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.dll
-C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\refint\Acceloka.dll
-C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.pdb
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\bin\Debug\net8.0\appsettings.json
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.staticwebassets.endpoints.json
@@ -317,6 +83,14 @@ C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\brows
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.Entities.dll
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\bin\Debug\net8.0\Acceloka.Entities.pdb
+C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.csproj.AssemblyReference.cache
+C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.AssemblyInfoInputs.cache
+C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.AssemblyInfo.cs
+C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.csproj.CoreCompileInputs.cache
+C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.sourcelink.json
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\scopedcss\bundle\Acceloka.styles.css
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.development.json
@@ -329,5 +103,8 @@ C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\staticwebasset
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.csproj.Up2Date
+C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.dll
+C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\refint\Acceloka.dll
+C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.pdb
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\Acceloka.genruntimeconfig.cache
 C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\obj\Debug\net8.0\ref\Acceloka.dll

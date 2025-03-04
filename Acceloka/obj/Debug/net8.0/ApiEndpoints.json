@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "bookingRequest",
-        "Type": "System.Collections.Generic.List\u00601[[Acceloka.Models.DTOS.BookTicketDto, Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Name": "command",
+        "Type": "Acceloka.Application.Commands.Bookings.CreateBookingCommand",
         "IsRequired": true
       }
     ],
@@ -24,52 +24,37 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "EventDate",
-        "Type": "System.DateTimeOffset",
-        "IsRequired": false
-      },
-      {
-        "Name": "Quota",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Category",
+        "Name": "category",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "TicketCode",
+        "Name": "ticketCode",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "TicketName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "TicketPrice",
+        "Name": "ticketPrice",
         "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
-        "Name": "MinEventDate",
+        "Name": "minEventDate",
         "Type": "System.Nullable\u00601[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
-        "Name": "MaxEventDate",
+        "Name": "maxEventDate",
         "Type": "System.Nullable\u00601[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
-        "Name": "OrderBy",
+        "Name": "orderBy",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "OrderState",
+        "Name": "orderState",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -78,7 +63,7 @@
   },
   {
     "ContainingType": "Acceloka.Controllers.BookedTicketController",
-    "Method": "GetBookedTicket",
+    "Method": "GetBookedTicketById",
     "RelativePath": "api/v1/get-booked-ticket/{bookId}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -120,7 +105,7 @@
   },
   {
     "ContainingType": "Acceloka.Controllers.BookedTicketController",
-    "Method": "UpdateTicket",
+    "Method": "UpdateBookedTicket",
     "RelativePath": "api/v1/update-ticket/{bookId}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -132,8 +117,8 @@
         "IsRequired": true
       },
       {
-        "Name": "updatedTickets",
-        "Type": "System.Collections.Generic.List\u00601[[Acceloka.Models.DTOS.BookedTicketUpdateRequestDto, Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Name": "command",
+        "Type": "Acceloka.Application.Commands.BookedTickets.UpdateBookedTicketCommand",
         "IsRequired": true
       }
     ],

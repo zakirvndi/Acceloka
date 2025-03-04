@@ -14,38 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-<<<<<<< HEAD
                 "$ref": "#/components/schemas/CreateBookingCommand"
-=======
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/BookTicketDto"
-                }
->>>>>>> 017008d (Update)
               }
             },
             "text/json": {
               "schema": {
-<<<<<<< HEAD
                 "$ref": "#/components/schemas/CreateBookingCommand"
-=======
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/BookTicketDto"
-                }
->>>>>>> 017008d (Update)
               }
             },
             "application/*+json": {
               "schema": {
-<<<<<<< HEAD
                 "$ref": "#/components/schemas/CreateBookingCommand"
-=======
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/BookTicketDto"
-                }
->>>>>>> 017008d (Update)
               }
             }
           }
