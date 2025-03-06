@@ -1,0 +1,289 @@
+2025-03-06 19:16:19 [Information] Now listening on: "http://localhost:5207"
+2025-03-06 19:16:19 [Information] Application started. Press Ctrl+C to shut down.
+2025-03-06 19:16:19 [Information] Hosting environment: "Development"
+2025-03-06 19:16:19 [Information] Content root path: "C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka"
+2025-03-06 19:16:20 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger""" - null null
+2025-03-06 19:16:20 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger""" - 301 0 null 191.7071ms
+2025-03-06 19:16:20 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/index.html""" - null null
+2025-03-06 19:16:21 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 69.7888ms
+2025-03-06 19:16:21 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/swagger-ui.css""" - null null
+2025-03-06 19:16:21 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/swagger-ui-bundle.js""" - null null
+2025-03-06 19:16:21 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2025-03-06 19:16:21 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-03-06 19:16:21 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2025-03-06 19:16:21 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 2.472ms
+2025-03-06 19:16:21 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2025-03-06 19:16:21 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/swagger-ui-standalone-preset.js""" - 200 230280 "text/javascript" 24.5473ms
+2025-03-06 19:16:21 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 27.1608ms
+2025-03-06 19:16:21 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/_vs/browserLink""" - null null
+2025-03-06 19:16:21 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2025-03-06 19:16:21 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/swagger-ui-bundle.js""" - 200 1456926 "text/javascript" 32.2005ms
+2025-03-06 19:16:21 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 52.7406ms
+2025-03-06 19:16:21 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/v1/swagger.json""" - null null
+2025-03-06 19:16:21 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 19.1545ms
+2025-03-06 20:04:34 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-03-06 20:04:34 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 6.1475ms
+2025-03-06 20:04:35 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/v1/swagger.json""" - null null
+2025-03-06 20:04:35 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 27.3409ms
+2025-03-06 20:07:42 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?" - null null
+2025-03-06 20:07:42 [Information] Executing endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:07:42 [Information] Route matched with "{action = \"GetAvailableTickets\", controller = \"Ticket\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.DateTimeOffset], System.Nullable`1[System.DateTimeOffset], System.String, System.String)" on controller "Acceloka.Controllers.TicketController" ("Acceloka").
+2025-03-06 20:07:43 [Warning] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2025-03-06 20:07:44 [Information] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TicketCode], [t].[Category], [t].[EventDate], [t].[Quota], [t].[TicketName], [t].[TicketPrice]
+FROM [Ticket] AS [t]
+ORDER BY [t].[TicketCode]"
+2025-03-06 20:07:44 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Acceloka.Models.DTOS.TicketDto, Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-06 20:07:44 [Information] Executed action "Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)" in 1628.3272ms
+2025-03-06 20:07:44 [Information] Executed endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:07:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?" - 200 null "application/json; charset=utf-8" 1773.796ms
+2025-03-06 20:07:52 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""" - null null
+2025-03-06 20:07:52 [Information] Executing endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:07:52 [Information] Route matched with "{action = \"GetAvailableTickets\", controller = \"Ticket\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.DateTimeOffset], System.Nullable`1[System.DateTimeOffset], System.String, System.String)" on controller "Acceloka.Controllers.TicketController" ("Acceloka").
+2025-03-06 20:07:52 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TicketCode], [t].[Category], [t].[EventDate], [t].[Quota], [t].[TicketName], [t].[TicketPrice]
+FROM [Ticket] AS [t]
+ORDER BY [t].[TicketCode]"
+2025-03-06 20:07:52 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Acceloka.Models.DTOS.TicketDto, Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-06 20:07:52 [Information] Executed action "Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)" in 19.7959ms
+2025-03-06 20:07:52 [Information] Executed endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:07:52 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""" - 200 null "application/json; charset=utf-8" 40.8282ms
+2025-03-06 20:07:52 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/favicon.ico""" - null null
+2025-03-06 20:07:52 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/favicon.ico""" - 404 0 null 0.6718ms
+2025-03-06 20:07:52 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5207""""/favicon.ico", Response status code: 404
+2025-03-06 20:08:25 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?" - null null
+2025-03-06 20:08:25 [Information] Executing endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:08:25 [Information] Route matched with "{action = \"GetAvailableTickets\", controller = \"Ticket\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.DateTimeOffset], System.Nullable`1[System.DateTimeOffset], System.String, System.String)" on controller "Acceloka.Controllers.TicketController" ("Acceloka").
+2025-03-06 20:08:25 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TicketCode], [t].[Category], [t].[EventDate], [t].[Quota], [t].[TicketName], [t].[TicketPrice]
+FROM [Ticket] AS [t]
+ORDER BY [t].[TicketCode]"
+2025-03-06 20:08:25 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Acceloka.Models.DTOS.TicketDto, Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-06 20:08:25 [Information] Executed action "Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)" in 10.1271ms
+2025-03-06 20:08:25 [Information] Executed endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:08:25 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?" - 200 null "application/json; charset=utf-8" 11.5369ms
+2025-03-06 20:41:21 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=0&MinEventDate=&MaxEventDate=&OrderBy=eventDate&OrderState=ascending" - null null
+2025-03-06 20:41:21 [Information] Executing endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:41:21 [Information] Route matched with "{action = \"GetAvailableTickets\", controller = \"Ticket\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.DateTimeOffset], System.Nullable`1[System.DateTimeOffset], System.String, System.String)" on controller "Acceloka.Controllers.TicketController" ("Acceloka").
+2025-03-06 20:41:21 [Information] Executed action "Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)" in 33.3044ms
+2025-03-06 20:41:21 [Information] Executed endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:41:21 [Error] Exception occurred: "Validation failed: 
+ -- TicketPrice: Ticket price must be greater than 0. Severity: Error
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error"
+FluentValidation.ValidationException: Validation failed: 
+ -- TicketPrice: Ticket price must be greater than 0. Severity: Error
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error
+   at ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Application\Behaviors\ValidationBehavior.cs:line 27
+   at Acceloka.Controllers.TicketController.GetAvailableTickets(String category, String ticketCode, Nullable`1 ticketPrice, Nullable`1 minEventDate, Nullable`1 maxEventDate, String orderBy, String orderState) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Controllers\TicketController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at GlobalExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Middlewares\GlobalExceptionHandlerMiddleware.cs:line 21
+2025-03-06 20:41:21 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=0&MinEventDate=&MaxEventDate=&OrderBy=eventDate&OrderState=ascending" - 500 null "application/problem+json" 158.8654ms
+2025-03-06 20:41:21 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=0&MinEventDate=&MaxEventDate=&OrderBy=eventDate&OrderState=ascending" - null null
+2025-03-06 20:41:21 [Information] Executing endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:41:21 [Information] Route matched with "{action = \"GetAvailableTickets\", controller = \"Ticket\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.DateTimeOffset], System.Nullable`1[System.DateTimeOffset], System.String, System.String)" on controller "Acceloka.Controllers.TicketController" ("Acceloka").
+2025-03-06 20:41:21 [Information] Executed action "Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)" in 1.483ms
+2025-03-06 20:41:21 [Information] Executed endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:41:21 [Error] Exception occurred: "Validation failed: 
+ -- TicketPrice: Ticket price must be greater than 0. Severity: Error
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error"
+FluentValidation.ValidationException: Validation failed: 
+ -- TicketPrice: Ticket price must be greater than 0. Severity: Error
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error
+   at ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Application\Behaviors\ValidationBehavior.cs:line 27
+   at Acceloka.Controllers.TicketController.GetAvailableTickets(String category, String ticketCode, Nullable`1 ticketPrice, Nullable`1 minEventDate, Nullable`1 maxEventDate, String orderBy, String orderState) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Controllers\TicketController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at GlobalExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Middlewares\GlobalExceptionHandlerMiddleware.cs:line 21
+2025-03-06 20:41:21 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=0&MinEventDate=&MaxEventDate=&OrderBy=eventDate&OrderState=ascending" - 500 null "application/problem+json" 3.4886ms
+2025-03-06 20:41:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=0&MinEventDate=&MaxEventDate=&OrderBy=eventDate&OrderState=ascending" - null null
+2025-03-06 20:41:22 [Information] Executing endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:41:22 [Information] Route matched with "{action = \"GetAvailableTickets\", controller = \"Ticket\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.DateTimeOffset], System.Nullable`1[System.DateTimeOffset], System.String, System.String)" on controller "Acceloka.Controllers.TicketController" ("Acceloka").
+2025-03-06 20:41:22 [Information] Executed action "Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)" in 0.6068ms
+2025-03-06 20:41:22 [Information] Executed endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:41:22 [Error] Exception occurred: "Validation failed: 
+ -- TicketPrice: Ticket price must be greater than 0. Severity: Error
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error"
+FluentValidation.ValidationException: Validation failed: 
+ -- TicketPrice: Ticket price must be greater than 0. Severity: Error
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error
+   at ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Application\Behaviors\ValidationBehavior.cs:line 27
+   at Acceloka.Controllers.TicketController.GetAvailableTickets(String category, String ticketCode, Nullable`1 ticketPrice, Nullable`1 minEventDate, Nullable`1 maxEventDate, String orderBy, String orderState) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Controllers\TicketController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at GlobalExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Middlewares\GlobalExceptionHandlerMiddleware.cs:line 21
+2025-03-06 20:41:22 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=0&MinEventDate=&MaxEventDate=&OrderBy=eventDate&OrderState=ascending" - 500 null "application/problem+json" 2.7348ms
+2025-03-06 20:41:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=0&MinEventDate=&MaxEventDate=&OrderBy=eventDate&OrderState=ascending" - null null
+2025-03-06 20:41:22 [Information] Executing endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:41:22 [Information] Route matched with "{action = \"GetAvailableTickets\", controller = \"Ticket\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.DateTimeOffset], System.Nullable`1[System.DateTimeOffset], System.String, System.String)" on controller "Acceloka.Controllers.TicketController" ("Acceloka").
+2025-03-06 20:41:22 [Information] Executed action "Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)" in 0.7081ms
+2025-03-06 20:41:22 [Information] Executed endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:41:22 [Error] Exception occurred: "Validation failed: 
+ -- TicketPrice: Ticket price must be greater than 0. Severity: Error
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error"
+FluentValidation.ValidationException: Validation failed: 
+ -- TicketPrice: Ticket price must be greater than 0. Severity: Error
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error
+   at ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Application\Behaviors\ValidationBehavior.cs:line 27
+   at Acceloka.Controllers.TicketController.GetAvailableTickets(String category, String ticketCode, Nullable`1 ticketPrice, Nullable`1 minEventDate, Nullable`1 maxEventDate, String orderBy, String orderState) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Controllers\TicketController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at GlobalExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Middlewares\GlobalExceptionHandlerMiddleware.cs:line 21
+2025-03-06 20:41:22 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=0&MinEventDate=&MaxEventDate=&OrderBy=eventDate&OrderState=ascending" - 500 null "application/problem+json" 1.8207ms
+2025-03-06 20:41:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=0&MinEventDate=&MaxEventDate=&OrderBy=eventDate&OrderState=ascending" - null null
+2025-03-06 20:41:22 [Information] Executing endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:41:22 [Information] Route matched with "{action = \"GetAvailableTickets\", controller = \"Ticket\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.DateTimeOffset], System.Nullable`1[System.DateTimeOffset], System.String, System.String)" on controller "Acceloka.Controllers.TicketController" ("Acceloka").
+2025-03-06 20:41:22 [Information] Executed action "Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)" in 0.5142ms
+2025-03-06 20:41:22 [Information] Executed endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:41:22 [Error] Exception occurred: "Validation failed: 
+ -- TicketPrice: Ticket price must be greater than 0. Severity: Error
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error"
+FluentValidation.ValidationException: Validation failed: 
+ -- TicketPrice: Ticket price must be greater than 0. Severity: Error
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error
+   at ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Application\Behaviors\ValidationBehavior.cs:line 27
+   at Acceloka.Controllers.TicketController.GetAvailableTickets(String category, String ticketCode, Nullable`1 ticketPrice, Nullable`1 minEventDate, Nullable`1 maxEventDate, String orderBy, String orderState) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Controllers\TicketController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at GlobalExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Middlewares\GlobalExceptionHandlerMiddleware.cs:line 21
+2025-03-06 20:41:22 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=0&MinEventDate=&MaxEventDate=&OrderBy=eventDate&OrderState=ascending" - 500 null "application/problem+json" 1.485ms
+2025-03-06 20:46:23 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?" - null null
+2025-03-06 20:46:23 [Information] Executing endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:46:23 [Information] Route matched with "{action = \"GetAvailableTickets\", controller = \"Ticket\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.DateTimeOffset], System.Nullable`1[System.DateTimeOffset], System.String, System.String)" on controller "Acceloka.Controllers.TicketController" ("Acceloka").
+2025-03-06 20:46:23 [Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TicketCode], [t].[Category], [t].[EventDate], [t].[Quota], [t].[TicketName], [t].[TicketPrice]
+FROM [Ticket] AS [t]
+ORDER BY [t].[TicketCode]"
+2025-03-06 20:46:23 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Acceloka.Models.DTOS.TicketDto, Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-06 20:46:23 [Information] Executed action "Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)" in 33.5821ms
+2025-03-06 20:46:23 [Information] Executed endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:46:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?" - 200 null "application/json; charset=utf-8" 35.0362ms
+2025-03-06 20:47:50 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?" - null null
+2025-03-06 20:47:50 [Information] Executing endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:47:50 [Information] Route matched with "{action = \"GetAvailableTickets\", controller = \"Ticket\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.DateTimeOffset], System.Nullable`1[System.DateTimeOffset], System.String, System.String)" on controller "Acceloka.Controllers.TicketController" ("Acceloka").
+2025-03-06 20:47:50 [Information] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[TicketCode], [t].[Category], [t].[EventDate], [t].[Quota], [t].[TicketName], [t].[TicketPrice]
+FROM [Ticket] AS [t]
+ORDER BY [t].[TicketCode]"
+2025-03-06 20:47:50 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Acceloka.Models.DTOS.TicketDto, Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-03-06 20:47:50 [Information] Executed action "Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)" in 12.4419ms
+2025-03-06 20:47:50 [Information] Executed endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:47:50 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?" - 200 null "application/json; charset=utf-8" 13.3936ms
+2025-03-06 20:56:43 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-03-06 20:56:43 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 1.8461ms
+2025-03-06 20:56:43 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/v1/swagger.json""" - null null
+2025-03-06 20:56:43 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 25.44ms
+2025-03-06 20:59:51 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=&MinEventDate=2025-03-04&MaxEventDate=2025-03-15&OrderBy=eventDate&OrderState=ascending" - null null
+2025-03-06 20:59:51 [Information] Executing endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:59:51 [Information] Route matched with "{action = \"GetAvailableTickets\", controller = \"Ticket\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.DateTimeOffset], System.Nullable`1[System.DateTimeOffset], System.String, System.String)" on controller "Acceloka.Controllers.TicketController" ("Acceloka").
+2025-03-06 20:59:51 [Information] Executed action "Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)" in 11.1067ms
+2025-03-06 20:59:51 [Information] Executed endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:59:51 [Error] Exception occurred: "Validation failed: 
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error"
+FluentValidation.ValidationException: Validation failed: 
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error
+   at ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Application\Behaviors\ValidationBehavior.cs:line 27
+   at Acceloka.Controllers.TicketController.GetAvailableTickets(String category, String ticketCode, Nullable`1 ticketPrice, Nullable`1 minEventDate, Nullable`1 maxEventDate, String orderBy, String orderState) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Controllers\TicketController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at GlobalExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Middlewares\GlobalExceptionHandlerMiddleware.cs:line 21
+2025-03-06 20:59:51 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=&MinEventDate=2025-03-04&MaxEventDate=2025-03-15&OrderBy=eventDate&OrderState=ascending" - 500 null "application/problem+json" 18.7696ms
+2025-03-06 20:59:51 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=&MinEventDate=2025-03-04&MaxEventDate=2025-03-15&OrderBy=eventDate&OrderState=ascending" - null null
+2025-03-06 20:59:51 [Information] Executing endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:59:51 [Information] Route matched with "{action = \"GetAvailableTickets\", controller = \"Ticket\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.DateTimeOffset], System.Nullable`1[System.DateTimeOffset], System.String, System.String)" on controller "Acceloka.Controllers.TicketController" ("Acceloka").
+2025-03-06 20:59:51 [Information] Executed action "Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)" in 0.9423ms
+2025-03-06 20:59:51 [Information] Executed endpoint '"Acceloka.Controllers.TicketController.GetAvailableTickets (Acceloka)"'
+2025-03-06 20:59:51 [Error] Exception occurred: "Validation failed: 
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error"
+FluentValidation.ValidationException: Validation failed: 
+ -- OrderBy: Invalid OrderBy field. Allowed values: TicketName, Category, TicketPrice, EventDate, TicketCode. Severity: Error
+   at ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Application\Behaviors\ValidationBehavior.cs:line 27
+   at Acceloka.Controllers.TicketController.GetAvailableTickets(String category, String ticketCode, Nullable`1 ticketPrice, Nullable`1 minEventDate, Nullable`1 maxEventDate, String orderBy, String orderState) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Controllers\TicketController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at GlobalExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\Users\ZAKI\Documents\GitHub\Acceloka\Acceloka\Middlewares\GlobalExceptionHandlerMiddleware.cs:line 21
+2025-03-06 20:59:51 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5207""""/api/v1/get-available-ticket""?Category=&TicketCode=&TicketPrice=&MinEventDate=2025-03-04&MaxEventDate=2025-03-15&OrderBy=eventDate&OrderState=ascending" - 500 null "application/problem+json" 2.3725ms

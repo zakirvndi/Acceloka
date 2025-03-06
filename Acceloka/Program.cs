@@ -8,15 +8,12 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
 
-
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//configure sql server & dbcontext
+// Configure SQL Server & DbContext
 builder.Services.AddEntityFrameworkSqlServer();
 builder.Services.AddDbContextPool<AccelokaContext>(options =>
 {
@@ -24,8 +21,7 @@ builder.Services.AddDbContextPool<AccelokaContext>(options =>
     options.UseSqlServer(conString);
 });
 
-
-//Behaviors
+// Behaviors
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
 // Register MediatR
@@ -34,29 +30,38 @@ builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.Get
 // Register FluentValidation
 builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 
-
-//Mapper
+// Mapper
 builder.Services.AddAutoMapper([typeof(TicketProfile)]);
-
 
 // Konfigurasi Serilog Sink File
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Information()
     .WriteTo.File(
         path: "logs/Log-.txt",
-        rollingInterval: RollingInterval.Day,  
+        rollingInterval: RollingInterval.Day,
         retainedFileCountLimit: 7,
         outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss} [{Level}] {Message}{NewLine}{Exception}"
     )
     .CreateLogger();
 
-
-
 builder.Host.UseSerilog();
+
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:3000") // Izinkan frontend
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
 
 var app = builder.Build();
 
-//untuk middlware error handling
+// Middleware error handling
 app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 
 // Configure the HTTP request pipeline.
@@ -65,6 +70,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseAuthorization();
 
